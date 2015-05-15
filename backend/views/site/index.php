@@ -24,19 +24,19 @@ $this->title = 'WS Naturais';
             </div>
             <div class="col-lg-4">
                 <h2>Cadastro de Clientes</h2>
-                <p><a href="http://localhost/advanced/backend/web/index.php?r=cliente">Cliente</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=categoria">Categoria de Clientes</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=bairro">Bairro</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=cidade">Cidade</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=uf">UF</a></p>
+                <p><a href="../../backend/web/index.php?r=cliente">Cliente</a></p>
+				<p><a href="../../backend/web/index.php?r=categoria">Categoria de Clientes</a></p>
+				<p><a href="../../backend/web/index.php?r=bairro">Bairro</a></p>
+				<p><a href="../../backend/web/index.php?r=cidade">Cidade</a></p>
+				<p><a href="../../backend/web/index.php?r=uf">UF</a></p>
 				
             </div>
             <div class="col-lg-4">
                 <h2>Cadastros Gerais</h2>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=produto">Produtos</a></p>
-                <p><a href="http://localhost/advanced/backend/web/index.php?r=formaspagamento">Formas de Pagamento</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=situacaopedido">Situa&ccedil;&otilde;es de Pedido</a></p>
-				<p><a href="http://localhost/advanced/backend/web/index.php?r=tipopedido">Tipos de Pedido</a></p>
+				<p><a href="../../backend/web/index.php?r=produto">Produtos</a></p>
+                <p><a href="../../backend/web/index.php?r=formaspagamento">Formas de Pagamento</a></p>
+				<p><a href="../../backend/web/index.php?r=situacaopedido">Situa&ccedil;&otilde;es de Pedido</a></p>
+				<p><a href="../../backend/web/index.php?r=tipopedido">Tipos de Pedido</a></p>
             </div>
         </div>
 
