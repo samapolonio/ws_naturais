@@ -20,6 +20,10 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'username') ?>
                 <?= $form->field($model, 'password')->passwordInput() ?>
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
+				<div style="color:#999;margin:1em 0">
+                    Esqueceu sua senha? <a href="http://localhost/advanced/frontend/web/index.php?r=site%2Frequest-password-reset">Clique aqui</a><br>
+					Ainda n&atilde;o possui cadastro? <a href="http://localhost/advanced/frontend/web/index.php?r=site%2Fsignup">Clique aqui</a>
+                </div>
                 <div class="form-group">
                     <?= Html::submitButton('Entrar', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
                 </div>

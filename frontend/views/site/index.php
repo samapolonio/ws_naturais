@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = 'WS Naturais';
 ?>
 <div class="site-index">
 
@@ -20,7 +20,6 @@ $this->title = 'My Yii Application';
 				<p>Remessas</p>
 				<p><a href="http://localhost/advanced/backend/web/index.php">Cadastros</a></p>
             </div>
-            
         </div>
 
     </div>

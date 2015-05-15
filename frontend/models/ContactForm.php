@@ -25,8 +25,8 @@ class ContactForm extends Model
             // name, email, subject and body are required
             [['name'], 'required','message' => 'Informe seu nome'],
 			[['email'], 'required','message' => 'Informe seu email'],
-			[['subject'], 'required','message' => 'Informe o motivo do seu contato'],
-			[['body'], 'required','message' => 'Descreva o que deseja'],
+			[['subject'], 'required','message' => 'Informe o assunto'],
+			[['body'], 'required','message' => 'Informe sua mensagem'],
             // email has to be a valid email address
             ['email', 'email'],
             // verifyCode needs to be entered correctly
@@ -56,7 +56,7 @@ class ContactForm extends Model
             'name' => 'Nome',
             'email' => 'Email',
 			'subject' => 'Assunto',
-			'body' => 'Texto',
+			'body' => 'Mensagem',
 			'verifyCode' => 'Digite os caracteres abaixo',
         ];
     }
